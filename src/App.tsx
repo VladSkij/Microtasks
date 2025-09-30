@@ -6,6 +6,7 @@ import {UniversalBtn} from "./components/UniversalBtn.tsx";
 import {Hook} from "./assets/Hook.tsx";
 import {FilterMethod} from "./assets/FilterMethod.tsx";
 import {useState} from "react";
+import {InputMikrotask} from "./InputMikrotask.tsx";
 
 export function App() {
 
@@ -47,7 +48,7 @@ export function App() {
           <UniversalBtn name={"Button2"} callback={ButtonFoo2}/>
           <Hook/>
           <FilterMethod currentMoney={currentMoney} onClickFilterHandler = {onClickFilterHandler}/>
-
+          <InputMikrotask/>
       </div>
   )
 }
